@@ -52,5 +52,4 @@ function ServiceMap({ fgRef, serviceMap }: any): JSX.Element {
 		/>
 	);
 }
-
 export default memo(ServiceMap);
