@@ -115,4 +115,3 @@ func (p *PqlEngine) RunAlertQuery(ctx context.Context, qs string, t time.Time) (
 		return nil, fmt.Errorf("rule result is not a vector or scalar")
 	}
 }
-//Adding comment
