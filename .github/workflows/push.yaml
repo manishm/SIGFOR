@@ -30,7 +30,7 @@ jobs:
         id: short-sha
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v5.1
+        uses: tj-actions/branch-names@v7.0.7
       - name: Set docker tag environment
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
@@ -65,7 +65,7 @@ jobs:
         id: short-sha
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v5.1
+        uses: tj-actions/branch-names@v7.0.7
       - name: Set docker tag environment
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
@@ -109,7 +109,7 @@ jobs:
         id: short-sha
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v5.1
+        uses: tj-actions/branch-names@v7.0.7
       - name: Set docker tag environment
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
@@ -158,7 +158,7 @@ jobs:
         id: short-sha
       - name: Get branch name
         id: branch-name
-        uses: tj-actions/branch-names@v5.1
+        uses: tj-actions/branch-names@v7.0.7
       - name: Set docker tag environment
         run: |
           if [ '${{ steps.branch-name.outputs.is_tag }}' == 'true' ]; then
