@@ -49,7 +49,7 @@ func GetAlertManagerApiPrefix() string {
 	return "http://alertmanager:9093/api/"
 }
 
-// Alert manager channel subpath
+// Alert manager channel subpath TEST
 var AmChannelApiPath = GetOrDefaultEnv("ALERTMANAGER_API_CHANNEL_PATH", "v1/routes")
 
 var OTLPTarget = GetOrDefaultEnv("OTLP_TARGET", "")
